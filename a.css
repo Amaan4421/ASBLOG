@@ -1,0 +1,76 @@
+body
+{
+	
+	font-family:times new roman;
+	background:white;
+	
+}
+.header
+{
+	font-weight:bold;
+	font-style:italic;
+	font-size:30px;
+	text-align: center;
+	background: gray;
+	padding:20px;
+
+}
+.button
+{
+	background-color: orange;
+	border: 2px;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+
+.top
+{
+	font-size:30px;
+	padding:10px;
+	color:black;
+	background:orange;
+	
+}
+
+.leftcolumn
+{
+	float: left;
+    width: 70%;
+	
+}
+
+.rightcolumn
+{
+	float: right;
+	width: 25%;
+	padding-right: 30px;
+}
+.card
+{
+	background-color:gray;
+	font-size:25px;
+	margin-top: 20px;
+	padding:20px;
+}
+.row:after 
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+.footer {
+
+	padding: 20px;
+	text-align: center;
+	background: gray;
+	margin-top: 20px;
+	font-size:25px;
+}
+
